@@ -342,3 +342,8 @@ h3 {
 .social-row__item {
 	margin-left: 17px;
 }
+
+.footer-menu__item:hover a {
+	text-decoration: none;
+	color: #BEBEBE;
+}
