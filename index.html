@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700&display=swap&subset=cyrillic" rel="stylesheet">
     <title>GM photos</title>
@@ -16,15 +16,15 @@
         <div class="nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-4 col-md-4">
                         <img src="img/logo.png" alt="GM photos" class="logo">
                     </div>
-                    <div class="offset-md-2 col-md-3">
+                    <div class="col-4 offset-md-2 col-md-3">
                         <button class="search">
                             <img src="img/icon/search.svg" alt="">
                         </button>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-4 col-md-3">
                         <button class="menu ml-auto">
                             <img src="img/icon/menu.svg" alt="Menu">
                         </button>
@@ -35,7 +35,7 @@
         <div class="offer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 vh-dependent">
                         <div class="offer-cont">
                             <h1 class="offer-cont__title">
                                 Фотография как отражение души
@@ -49,7 +49,7 @@
                             <img src="img/icon/loader.svg" alt="Loader" class="loader">
                         </div>
                     </div>
-                    <div class="col-md-6 static">
+                    <div class="col-md-6 static vh-dependent">
                         <div class="hero">
                             <a href="#" class="video"></a>
                         </div>
@@ -58,18 +58,18 @@
             </div>
         </div>
     </header>
-    <section class="about_section">
+    <section class="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="img/about.jpg" alt="" class="poster">
+                    <img src="img/about.jpg" alt="" class="poster img-fluid">
                 </div>
                 <div class="col-md-6 ml-auto">
-                    <div class="about">
-                        <h2 class="about__title">
+                    <div class="about_section">
+                        <h2 class="about_section__title section-title__heading_review">
                             Я лишь хочу захватить секундную часть реальности
                         </h2>
-                        <p class="about__text">
+                        <p class="about_section__text">
                             Я начала фотографировать, когда была подростком. Среди прочих увлечений, которые быстро забывались, фотография надолго вошла в мою жизнь и стала ее неотъемлимой частью.
                         </p>
                     </div>
@@ -85,7 +85,7 @@
                         <p class="section-title__label">
                             — Видео с фотосессий
                         </p>
-                        <h2 class="section-title__heading">
+                        <h2 class="section-title__heading section-title__heading_review">
                             Я люблю людей, которых фотографирую. Я имею в виду, что они мои друзья, через свои фотографии я живу с ними
                         </h2>
                     </div>
@@ -102,7 +102,7 @@
                             </span>
                         </div>
                         <div class="item">
-                            <img src="img/image_2.jpg" alt="image_1">
+                            <img src="img/image_2.jpg" alt="image_2">
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="works">
-                        <h2 class="works__title">
+                        <h2 class="works__title section-title__heading_review">
                             Как проходит фотосессия
                         </h2>
                         <p class="works__text">
@@ -139,12 +139,10 @@
                         <p class="section-title__label">
                             — Портфолио
                         </p>
-                        <h2 class="section-title__heading">
-                            
-                        </h2>
+                        <h2 class="section-title__heading"></h2>
                     </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-12 col-xl-9">
                     <ul class="portfolio-tabs d-flex justify-content-between tabs__caption">
                         <li class="portfolio-tabs__item">
                             <a href="">
@@ -197,91 +195,89 @@
                         </a>
                     </div>
                     <div class="portfolio-wrap d-flex justify-content-between tabs__content">
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_06.jpg" alt="Portfolio 1">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_05.jpg" alt="Portfolio 2">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_04.jpg" alt="Portfolio 3">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_03.jpg" alt="Portfolio 4">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_02.jpg" alt="Portfolio 5">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_01.jpg" alt="Portfolio 6">
-                            </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_06.jpg" alt="Portfolio 6">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_05.jpg" alt="Portfolio 5">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_04.jpg" alt="Portfolio 4">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_03.jpg" alt="Portfolio 3">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_02.jpg" alt="Portfolio 2">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_01.jpg" alt="Portfolio 1">
+                        </a>
                     </div>
                     <div class="portfolio-wrap d-flex justify-content-between tabs__content">
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_03.jpg" alt="Portfolio 1">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_04.jpg" alt="Portfolio 2">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_06.jpg" alt="Portfolio 3">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_01.jpg" alt="Portfolio 4">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_05.jpg" alt="Portfolio 5">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_02.jpg" alt="Portfolio 6">
-                            </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_03.jpg" alt="Portfolio 3">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_04.jpg" alt="Portfolio 4">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_06.jpg" alt="Portfolio 6">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_01.jpg" alt="Portfolio 1">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_05.jpg" alt="Portfolio 5">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_02.jpg" alt="Portfolio 2">
+                        </a>
                     </div>
                     <div class="portfolio-wrap d-flex justify-content-between tabs__content">
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_01.jpg" alt="Portfolio 1">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_06.jpg" alt="Portfolio 2">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_03.jpg" alt="Portfolio 3">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_05.jpg" alt="Portfolio 4">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_04.jpg" alt="Portfolio 5">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_02.jpg" alt="Portfolio 6">
-                            </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_01.jpg" alt="Portfolio 1">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_06.jpg" alt="Portfolio 6">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_03.jpg" alt="Portfolio 3">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_05.jpg" alt="Portfolio 5">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_04.jpg" alt="Portfolio 4">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_02.jpg" alt="Portfolio 2">
+                        </a>
                     </div>
                     <div class="portfolio-wrap d-flex justify-content-between tabs__content">
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_01.jpg" alt="Portfolio 1">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_03.jpg" alt="Portfolio 2">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_05.jpg" alt="Portfolio 3">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_04.jpg" alt="Portfolio 4">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_02.jpg" alt="Portfolio 5">
-                            </a>
-                            <a href="#" class="portfolio-wrap__item">
-                                <img src="img/portfolio_06.jpg" alt="Portfolio 6">
-                            </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_01.jpg" alt="Portfolio 1">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_03.jpg" alt="Portfolio 3">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_05.jpg" alt="Portfolio 5">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_04.jpg" alt="Portfolio 4">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_02.jpg" alt="Portfolio 2">
+                        </a>
+                        <a href="#" class="portfolio-wrap__item">
+                            <img src="img/portfolio_06.jpg" alt="Portfolio 6">
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8">
-
-                </div>
+                <div class="col-md-8"></div>
                 <div class="col-md-4">
                     <div class="portfolio-content">
                         <button class="portfolio-content__btn btn float-md-right">
@@ -323,7 +319,7 @@
                                 <p class="section-title__label">
                                     - Отзывы
                                 </p>
-                                <h2 class="section-title__heading">
+                                <h2 class="section-title__heading section-title__heading_review">
                                     "Мне сложно видеть себя на фото. 
                                     То что обычно получается, не похоже на то, 
                                     какой мне хотелось бы себя видеть... ”
@@ -345,7 +341,7 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 footer-content">
+                <div class="col-12 col-md-2 footer-content">
                     <a href="#">
                         <img class="footer-logo" src="img/logo-footer.svg" alt="GM photos">
                     </a>
