@@ -256,22 +256,28 @@ h3 {
 .tabs__content.active {
 	display: flex !important;  
 }
+
 .portfolio-content {
 	margin-top: 30px;
 }
+
 .portfolio-cont__btn {
 	
 }
+
 .contributor {
 	margin-top: 121px;
 }
+
 .contributor__title {
 	margin-bottom: 20px;
 
 }
+
 .cont-photo {
 	display: block;
 }
+
 .contributor-carousel .owl-nav {
 	display: flex;
 	margin-top: -50px;
@@ -280,4 +286,59 @@ h3 {
 
 .contributor-carousel .owl-prev {
 	margin-right: 25px;
+}
+
+.footer {
+	height: 240px;
+	background: #515151;
+	margin-top: 136px;
+}
+
+.footer-menu {
+
+}
+
+.footer-menu__item {
+	list-style: none;
+}
+
+.footer-menu__item a {
+	color: #ffffff;
+}
+
+.comments {
+	margin-top: 256px;
+}
+
+.footer-input {
+	width: 170px;
+	height: 36px;
+	text-indent: 20px;
+	margin-right: 20px;	
+}
+
+.section-footer {
+
+}
+
+.footer-submit__btn {
+	height: 37px;
+	padding: 0px 5px;
+}
+
+.footer-content {
+	margin-top: 54px;
+}
+
+.footer-devider {
+	margin-top: 37px;
+	border-top: 1px solid #BEBEBE;
+}
+
+.social-row {
+	margin-top: 30px;
+}
+
+.social-row__item {
+	margin-left: 17px;
 }
