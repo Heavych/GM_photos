@@ -1,10 +1,10 @@
 $(function() {
-	$('.works-carousel').owlCarousel({
+	$('.videos-carousel').owlCarousel({
 	    loop:true,
 	    margin:30,
 	    nav:true,
 	    dots: false,
-	    navText: ['<img src="img/left.svg">', '<img src="img/right.svg">'],
+	    navText: ['<img src="img/icon/left.svg">', '<img src="img/icon/right.svg">'],
 	    startPosition: 1,
 	    responsive:{
 	        0:{
@@ -24,8 +24,7 @@ $(function() {
 	    margin:0,
 	    nav:true,
 	    dots: false,
-	    navText: ['<img src="img/left.svg">', '<img src="img/right.svg">'],
-	    // startPosition: 1,
+	    navText: ['<img src="img/icon/left.svg">', '<img src="img/icon/right.svg">'],
 	    responsive:{
 	        0:{
 	            items:1
