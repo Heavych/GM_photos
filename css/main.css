@@ -10,6 +10,19 @@ button {
 	border: none;
 	background: transparent;
 }
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.vh-dependent {
+	height: 60vh;
+	display: flex;
+    align-items: center;
+}
+
 .static {
 	position: static;
 }
@@ -37,7 +50,7 @@ h3 {
 	padding: 13px 30px;
 	display: inline;
 	border-radius: 0;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 }
 .btn:hover {
 	background: #333;
@@ -282,10 +295,10 @@ h3 {
 .portfolio-wrap__item:hover img {
 	box-shadow: -30px 80px 200px rgba(0,0,0,0.25)
 	-moz-transform: scale(1.1);
--webkit-transform: scale(1.1);
--o-transform: scale(1.1);
--ms-transform: scale(1.1);
-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .portfolio-wrap__item:hover:after {
